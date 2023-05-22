@@ -1,0 +1,33 @@
+.next_grey {
+  height: 41px;
+  width: 189px;
+  border-radius: 20px;
+  background-color: #dadada;
+  color: #8e8e8e;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: Merriweather;
+}
+
+.next_grey:active {
+  background-color: #ffc700;
+  color: #0d0c11;
+}
+
+@media screen and (min-width: 600px) {
+  .next_grey {
+    border-radius: 4rem;
+    width: 60%;
+    height: 8rem;
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  .next_grey {
+    border-radius: 4rem;
+    width: 20%;
+    height: 5rem;
+    font-size: 2rem;
+  }
+}
